@@ -1,0 +1,27 @@
+{
+	"questions":[
+	{"id":1,
+	"question":" ______ JavaScript is also called client-side JavaScript.",
+	"ansList":["Microsoft", "Navigator", "LiveWire", "Native"],
+	"answer": "Navigator" },	
+	
+	{"id":2,
+	"question":"  _____ JavaScript statements embedded in an HTML page can respond to user events such as mouse-clicks, form input, and page navigation",
+	"ansList":["Client-Side", "Server-Side", "Local", "Native"],
+	"answer": "Client-Side" },
+	
+	{"id":3,
+	"question":"  Which of the following are capabilities of functions in JavaScript?",
+	"ansList":["Return a value", "Accept Parameters", "Accept parameters and return value", "none of the above"],
+	"answer": "Accept Parameters" },
+	
+	{"id":4,
+	"question":" JavaScript entities start with _______ and end with _________.",
+	"ansList":["semicolon, colon", "ampersand, colon", "ampersand, semicolon", "semicolon, ampersand"],
+	"answer": "ampersand, semicolon" },
+	
+	{"id":5,
+	"question":" _Using _______ statement is how you test for a specific condition.",
+	"ansList":["select", "switch", "for", "if"],
+	"answer": "if"}
+]}
