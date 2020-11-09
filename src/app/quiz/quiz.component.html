@@ -1,0 +1,29 @@
+<div class = "jumbotron" style = "text-align:center">
+
+    <h2>Welcome to JavaScript Quiz</h2>
+    <p>Whenever you're ready you may start the quiz. Goodluck! </p>
+    <button (click) = "loadQuiz()"> Strat Quiz </button>
+    
+    <!--------Displaying Quiz ---- -->
+    <div *ngFor= "let qq of questions">
+    <form>
+        Question 1: {{qq.question.id1}}  <input type = "radio" vlaue = 1> 
+        <span>{{qq.anslist}}</span>
+
+        Question 2: {{qq.question.id2}}  <input type = "radio" vlaue = 2> 
+        <span>{{qq.anslist}}</span>
+
+        Question 3: {{qq.question.id3}}  <input type = "radio" vlaue = 3> 
+        <span>{{qq.anslist}}</span>
+
+        Question 4: {{qq.question.id4}}  <input type = "radio" vlaue = 4> 
+        <span>{{qq.anslist}}</span>
+
+        Question 5: {{qq.question.id5}}  <input type = "radio" vlaue = 5> 
+        <span>{{qq.anslist}}</span>
+    </form>
+    </div>
+
+    <button class="btn btn-primary" (click)="onSubmit()">Submit Quiz</button>
+
+</div>
